@@ -1,0 +1,45 @@
+{
+  "name": "scribd-fetcher",
+  "version": "1.0.1",
+  "description": "This project uses a scribd.com book url and fetch the book all pages data in different forms and provide end result with 3 different files. It provides ImagePFG, DOM-PDF and HTML Book as user convinent option.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish4926/scribd-fetch-automation.git"
+  },
+  "keywords": [
+    "automation",
+    "scribd",
+    "pdfgenerator",
+    "imagetopdf",
+    "bookgenerator",
+    "dom",
+    "fetcher",
+    "dom",
+    "to",
+    "pdf",
+    "dom",
+    "to",
+    "file",
+    "html",
+    "book",
+    "automate",
+    "book",
+    "generator"
+  ],
+  "author": "Manish Arora",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manish4926/scribd-fetch-automation/issues"
+  },
+  "homepage": "https://github.com/manish4926/scribd-fetch-automation#readme",
+  "dependencies": {
+    "html-pdf-node": "^1.0.7",
+    "pdfkit": "^0.12.1",
+    "puppeteer": "^5.5.0",
+    "sharp": "^0.28.3"
+  }
+}
